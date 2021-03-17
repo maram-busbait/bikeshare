@@ -44,7 +44,7 @@ def get_filters():
     while True:
            daies= ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday' ]
            try:
-              day = input("enter day sunday, monday, tuesday, wednesday, thursday, friday, saturday:").lower()
+              day = input("enter which months you are interested about it sunday, monday, tuesday, wednesday, thursday, friday, saturday:").lower()
               if day in daies:
                 break
            except:
