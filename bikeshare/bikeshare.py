@@ -26,7 +26,7 @@ def get_filters():
             if city in CITY_DATA:
              break   
            except:
-             print("not except")
+             print("it is not except")
         
            print("try again")
     # TO DO: get user input for month (all, january, february, ... , june) 
