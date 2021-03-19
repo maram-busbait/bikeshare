@@ -48,7 +48,7 @@ def get_filters():
               if day in daies:
                 break
            except:
-             print("not except")
+             print("it is not except")
 
            print("try again")
         
