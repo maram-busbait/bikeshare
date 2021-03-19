@@ -37,7 +37,7 @@ def get_filters():
               if month in months:
                break
            except:
-             print("not except")
+             print("it is not except")
 
            print("try again")
     # TO DO: get user input for day 
