@@ -28,7 +28,7 @@ def get_filters():
            except:
              print("not except")
         
-           print("try again")
+           print("please try again")
     # TO DO: get user input for month (all, january, february, ... , june) 
     while True:
            months=['january', 'february', 'march', 'april', 'may', 'june']
@@ -39,7 +39,7 @@ def get_filters():
            except:
              print("not except")
 
-           print("try again")
+           print(" please try again")
     # TO DO: get user input for day 
     while True:
            daies= ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday' ]
@@ -48,9 +48,9 @@ def get_filters():
               if day in daies:
                 break
            except:
-             print("not except")
+             print("it is not except")
 
-           print("try again")
+           print(" please try again")
         
           
                
